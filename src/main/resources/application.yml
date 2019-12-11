@@ -1,0 +1,11 @@
+spring:
+  application.name: base-populator
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:postgresql://localhost/aspsp_registry
+    username: manager
+    password: manager
+  jpa:
+    hibernate:
+      ddl-auto: update
